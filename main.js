@@ -11,4 +11,6 @@ document.querySelector('#app').innerHTML = `
 const myButton = document.createElement('button')
 myButton.innerText = "Click Me!"
 
+myButton.style.backgroundColor = 'green'
+
 document.querySelector('#app').append(myButton)
